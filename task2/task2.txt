@@ -1,0 +1,6 @@
+<blockchain and cryptocurrencies>
+OP_SHA256
+<987dcca6ea151951c963ce256e3a035b044ee0c597836759e30ca11d08bf74ed>
+OP_EQUALVERIFY
+
+060<blockchain020and090cryptocurrencies>a821<987dcca6ea151951c963ce256e3a035b044ee0c597836759e30ca11d08bf74ed>88

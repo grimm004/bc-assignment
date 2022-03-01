@@ -1,0 +1,186 @@
+Creating and mining block... Done!
+Genesis Block:
+{
+    "VERSION": 1,
+    "difficulty": 5,
+    "hash": "000001cdad528e0694a48f4959a945e22630d1cd2bb46689a24d1f8661bd9e58",
+    "hash_previous_block": "0000000000000000000000000000000000000000000000000000000000000000",
+    "id": 0,
+    "nonce": 33530,
+    "timestamp": "2022-01-15T14:30:00",
+    "transactions": [
+        {
+            "VERSION": 1,
+            "hash": "cc66dba245b86b955a84e16fd393c77afc83c958a359ef3f4e3217250ca034bf",
+            "inputs": [],
+            "outputs": {
+                "3f51e1091f1b33a7d3767ec0ac2e7e283cebdf5c53c638ad54d69ad41a1e45df13c97f836e6494e050297ed457e0912b5e6f6d89e2281fb7fe2759463aa33596": 5000
+            }
+        },
+        {
+            "VERSION": 1,
+            "hash": "cc421acfb1a53a517a62d339a62c8c228c8b7f952561a622491659d01621414e",
+            "inputs": [],
+            "outputs": {
+                "153633c1f6c56388ef35b3e4b34fdb00409e673e5ab9fc742710e2a9251bfec019db1ec539f6460455dc6d7e99d9b803a7f334881a6b3454eb8630f2db45031b": 10000
+            }
+        },
+        {
+            "VERSION": 1,
+            "hash": "8d0509b07f8e8a6ce2e4d3650cedcb4c43aff3da114884b1f26c7e87b3880039",
+            "inputs": [],
+            "outputs": {
+                "38b93f9ebdfc9d1c326f14bfc62d3d2a98571d48c21c38914d1d4db3dfecbfbb576267437eed5428a6e2fb82f588413f69e5840d90dd29e14743a12a92aab57b": 2000
+            }
+        }
+    ]
+}
+
+Creating and mining block... Done!
+Block #1:
+{
+    "VERSION": 1,
+    "difficulty": 5,
+    "hash": "000005504e0195396b0387233d2416162bab7c7879549c6fb0af7d41e218dbd5",
+    "hash_previous_block": "000001cdad528e0694a48f4959a945e22630d1cd2bb46689a24d1f8661bd9e58",
+    "id": 1,
+    "nonce": 197192,
+    "timestamp": "2022-01-15T14:30:00",
+    "transactions": [
+        {
+            "VERSION": 1,
+            "hash": "346fec35d89d0bab5ee650cb259f9f9dad230ca60887bbd24641dd26f823f592",
+            "inputs": [
+                {
+                    "public_key": "3f51e1091f1b33a7d3767ec0ac2e7e283cebdf5c53c638ad54d69ad41a1e45df13c97f836e6494e050297ed457e0912b5e6f6d89e2281fb7fe2759463aa33596",
+                    "signature": "1a0a80d368b96034613cce997ec6597921c98fc6a696e456da8504d95b6c01db142c36f22072bb010afc204e93bc22255959a901f862f1460e0002c03c56a326"
+                }
+            ],
+            "outputs": {
+                "153633c1f6c56388ef35b3e4b34fdb00409e673e5ab9fc742710e2a9251bfec019db1ec539f6460455dc6d7e99d9b803a7f334881a6b3454eb8630f2db45031b": 1000,
+                "38b93f9ebdfc9d1c326f14bfc62d3d2a98571d48c21c38914d1d4db3dfecbfbb576267437eed5428a6e2fb82f588413f69e5840d90dd29e14743a12a92aab57b": 2000
+            }
+        },
+        {
+            "VERSION": 1,
+            "hash": "4c3f20d1b9e6d9154ccfc6e39d6db9110f399a5e38837337e51f640028ae2a1c",
+            "inputs": [
+                {
+                    "public_key": "153633c1f6c56388ef35b3e4b34fdb00409e673e5ab9fc742710e2a9251bfec019db1ec539f6460455dc6d7e99d9b803a7f334881a6b3454eb8630f2db45031b",
+                    "signature": "eaf2f08a6e80196f48d53e2844199b3fd96168fe2bc617e75eb692ff7c55c66622810e95f8c4c7ba53ab207dcef3f015ff15525ef4e6de854884cbeaaf0af43a"
+                }
+            ],
+            "outputs": {
+                "38b93f9ebdfc9d1c326f14bfc62d3d2a98571d48c21c38914d1d4db3dfecbfbb576267437eed5428a6e2fb82f588413f69e5840d90dd29e14743a12a92aab57b": 2000
+            }
+        },
+        {
+            "VERSION": 1,
+            "hash": "776b2808caf7422b177956b27464ff1f107cd5b4e6059ca5d328cb9f17ddd417",
+            "inputs": [
+                {
+                    "public_key": "38b93f9ebdfc9d1c326f14bfc62d3d2a98571d48c21c38914d1d4db3dfecbfbb576267437eed5428a6e2fb82f588413f69e5840d90dd29e14743a12a92aab57b",
+                    "signature": "f19e3ba83af8a974894b843e592fa38a03d312c1f50baa211c44b513cfa88d08e949d04ccaef69b5eabafa27da350fe2cfab83b3edff7cdb913243e4a8f46cf4"
+                }
+            ],
+            "outputs": {
+                "153633c1f6c56388ef35b3e4b34fdb00409e673e5ab9fc742710e2a9251bfec019db1ec539f6460455dc6d7e99d9b803a7f334881a6b3454eb8630f2db45031b": 10
+            }
+        }
+    ]
+}
+
+Verifying blockchain with 2 blocks...
+
+- Checking validity of genesis block...
+	✔ The hash of block 0 matches the stored hash.
+	✔ Block 0 has sufficient proof of work.
+	✔ The Merkle root hash of block 0 matches the stored Merkle root hash.
+		- Checking validity of transaction 'cc66dba245b86b955a84e16fd393c77afc83c958a359ef3f4e3217250ca034bf'
+			✔ Number of available signatures matches number of inputs.
+		✔ Successfully validated transaction.
+		- Checking validity of transaction 'cc421acfb1a53a517a62d339a62c8c228c8b7f952561a622491659d01621414e'
+			✔ Number of available signatures matches number of inputs.
+		✔ Successfully validated transaction.
+		- Checking validity of transaction '8d0509b07f8e8a6ce2e4d3650cedcb4c43aff3da114884b1f26c7e87b3880039'
+			✔ Number of available signatures matches number of inputs.
+		✔ Successfully validated transaction.
+	✔ All transactions in block 0 successfully validated.
+✔ Genesis block passed validation.
+
+- Checking validity of block 1...
+	✔ Block 1's previous hash matches that of the previous block.
+	✔ The hash of block 1 matches the stored hash.
+	✔ Block 1 has sufficient proof of work.
+	✔ The Merkle root hash of block 1 matches the stored Merkle root hash.
+		- Checking validity of transaction 'dff439576b553b043614c44a027d11923602256fac7f3aa0664f285be3d265e2'
+			✔ Number of available signatures matches number of inputs.
+			✔ Signature authenticated for address beginning '3f51e1091f1b33a7d3767ec0ac2e7e28'.
+		✔ Successfully validated transaction.
+		- Checking validity of transaction 'cf8973c7336d9200d472f1e16600603204931ba1d2b3976373290b081486a27a'
+			✔ Number of available signatures matches number of inputs.
+			✔ Signature authenticated for address beginning '153633c1f6c56388ef35b3e4b34fdb00'.
+		✔ Successfully validated transaction.
+		- Checking validity of transaction 'c0761906a23949381d63599b31c872c8f3a32f6b31466d646681d5253e4eab72'
+			✔ Number of available signatures matches number of inputs.
+			✔ Signature authenticated for address beginning '38b93f9ebdfc9d1c326f14bfc62d3d2a'.
+		✔ Successfully validated transaction.
+	✔ All transactions in block 1 successfully validated.
+✔ Block 1 passed validation.
+
+Blockchain successfully validated!
+Analysing mining difficulty 0...
+Block 0 mining time: 0.0140 s, nonce: 0
+Block 1 mining time: 0.0160 s, nonce: 0
+Overall time taken: 0.0300 s
+Average block mine time: 0.0150 s
+Average nonce: 0
+
+Analysing mining difficulty 1...
+Block 0 mining time: 0.0150 s, nonce: 2
+Block 1 mining time: 0.0160 s, nonce: 13
+Overall time taken: 0.0310 s
+Average block mine time: 0.0155 s
+Average nonce: 7
+
+Analysing mining difficulty 2...
+Block 0 mining time: 0.0150 s, nonce: 45
+Block 1 mining time: 0.0240 s, nonce: 553
+Overall time taken: 0.0390 s
+Average block mine time: 0.0195 s
+Average nonce: 299
+
+Analysing mining difficulty 3...
+Block 0 mining time: 0.1030 s, nonce: 6438
+Block 1 mining time: 0.0410 s, nonce: 2403
+Overall time taken: 0.1450 s
+Average block mine time: 0.0720 s
+Average nonce: 4420
+
+Analysing mining difficulty 4...
+Block 0 mining time: 1.0360 s, nonce: 68785
+Block 1 mining time: 0.3280 s, nonce: 20108
+Overall time taken: 1.3640 s
+Average block mine time: 0.6820 s
+Average nonce: 44446
+
+Analysing mining difficulty 5...
+Block 0 mining time: 0.4990 s, nonce: 33530
+Block 1 mining time: 3.1170 s, nonce: 197192
+Overall time taken: 3.6160 s
+Average block mine time: 1.8080 s
+Average nonce: 115361
+
+Analysing mining difficulty 6...
+Block 0 mining time: 122.8970 s, nonce: 7966481
+Block 1 mining time: 41.9937 s, nonce: 2674474
+Overall time taken: 164.8907 s
+Average block mine time: 82.4454 s
+Average nonce: 5320477
+
+Analysing mining difficulty 7...
+Block 0 mining time: 15325.4148 s, nonce: 1003901512
+Block 1 mining time: 2958.3905 s, nonce: 186968261
+Overall time taken: 18283.8074 s
+Average block mine time: 9141.9027 s
+Average nonce: 595434886

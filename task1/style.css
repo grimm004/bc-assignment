@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+table#output {
+    border-collapse: separate;
+    border-spacing: 2em;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.monospace {
+    font-family: 'Courier New', monospace;
+}
